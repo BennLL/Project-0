@@ -11,8 +11,8 @@ public class CS1400HW1 {
         System.out.println("Please think of a number between 1 and 100.");
         System.out.println("Is the number " + guess + "?");
         System.out.println("If more than the guessed number please type in 1 and press enter.");
-        System.out.println("If less than the guessed number please type in -1 and press enter");
-        System.out.println("If my guess was correct please type in 0 and press enter"); //testtttt
+        System.out.println("If less than the guessed number please type in -1 and press enter.");
+        System.out.println("If my guess was correct please type in 0 and press enter."); // added period
         command = keyboard.nextInt();
         while (command != 0) {
             if (command == 1) {
